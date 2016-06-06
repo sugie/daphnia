@@ -1,0 +1,9 @@
+<?php
+require_once BASE_DIR.'/sys/model/Model#MODEL_NAME#.php';
+require_once BASE_DIR.'/sys/access/#TABLE_NAME#.php';
+
+// Ctrl process code 
+
+
+// Assign value to Smarty
+GetSmarty()->assign("#VALUE_NAME#", #VALUE_NAME#);

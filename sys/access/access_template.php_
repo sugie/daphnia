@@ -1,0 +1,23 @@
+<?php
+class Tbl#TABLE_NAME# extends AbsTbl {
+    /**
+     * _name
+     *
+     * @var string
+     * @access protected
+     */
+    protected $_name = '#TABLE_NAME#';
+
+    /**
+     * _primary
+     *
+     * @var array
+     * @access protected
+     */
+    protected $_primary = array(
+        0 => '#PRIMARY_COLUMN#'
+    );
+    
+    // Other access mehtod following lines.
+
+} // ~~ end of class

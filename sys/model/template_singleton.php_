@@ -1,0 +1,16 @@
+<?php
+/**
+ * Singletone template
+ */
+
+
+class #CLASS_NAME# {
+    private static $instance = null;
+    public static function get() {
+        if(is_null(self::$instance)) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
+}
+
